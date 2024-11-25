@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 20%;
+    height: 40%;
+    background: peru;
+    font-size: 38px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:hover{
+    width: 30%;
+    height: 60%;
+    background: brown;
+    transition: all 1s ease-in-out;
+    font-size: 52px;
+    
+}
